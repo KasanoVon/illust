@@ -31,7 +31,7 @@ if image_files:
         font_size = max(20, img.width // 30)
 
         # 日本語対応フォントのパス
-        font_path = "font/NotoSansJP-Regular.otf"
+        font_path = "font/NotoSansJP-Regular.ttf"
 
         try:
             font = ImageFont.truetype(font_path, font_size)
