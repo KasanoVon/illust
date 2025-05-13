@@ -36,7 +36,7 @@ if image_files:
         try:
             font = ImageFont.truetype(font_path, font_size)
         except OSError:
-            st.error("フォントが読み込めませんでした。'HGRPP1.TTC' が存在するか確認してください。")
+            st.error("フォントが読み込めませんでした。'NotoSansJP-Regular.ttf' が存在するか確認してください。")
             font = ImageFont.load_default()
 
         # テキストサイズの取得
