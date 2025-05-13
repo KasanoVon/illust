@@ -30,8 +30,8 @@ if image_files:
         draw = ImageDraw.Draw(img)
         font_size = max(20, img.width // 30)
 
-        # 日本語対応フォントのパス（Windowsの場合）
-        font_path = "https://github.com/fontdasu/ShipporiAntique/blob/master/fonts/ttf/ShipporiAntique-Regular.ttf"
+        # 日本語対応フォントのパス
+        font_path = "fonts/NotoSansJP-Regular.otf"
 
         try:
             font = ImageFont.truetype(font_path, font_size)
