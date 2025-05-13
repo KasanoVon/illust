@@ -31,7 +31,7 @@ if image_files:
         font_size = max(20, img.width // 30)
 
         # 日本語対応フォントのパス（Windowsの場合）
-        font_path = "C:/Windows/Fonts/HGRPP1.TTC"
+        font_path = "https://github.com/fontdasu/ShipporiAntique/blob/master/fonts/ttf/ShipporiAntique-Regular.ttf"
 
         try:
             font = ImageFont.truetype(font_path, font_size)
